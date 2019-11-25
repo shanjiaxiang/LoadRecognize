@@ -48,7 +48,7 @@ class FileUtils:
         sourceList.append(tempZ)
         sourceList.append(tempA)
 
-        filePath = "D:\\16.研究\\应急疏散模型\\负重识别\\datas\\clean" + '\\' + path + ".txt"
+        filePath = "D:\\16.研究\\应急疏散模型\\4.负重状态识别\\负重识别\\datas\\clean" + '\\' + path + ".txt"
         with open(filePath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
             for i in range(0, len(lines)):
